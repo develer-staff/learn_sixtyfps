@@ -1,0 +1,6 @@
+HelloWorld := Window {
+    Text {
+        text: "hello world";
+        color: green;
+    }
+}

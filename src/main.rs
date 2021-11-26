@@ -1,3 +1,5 @@
+sixtyfps::include_modules!();
+
 fn main() {
-    println!("Hello, world!");
+    HelloWorld::new().run();
 }
