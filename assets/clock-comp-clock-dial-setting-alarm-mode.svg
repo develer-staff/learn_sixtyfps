@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="364" viewBox="0 0 364 364">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="364" height="364" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="clock-comp-clock-dial-setting-alarm-mode" transform="translate(30 20)">
+    <g id="Group_5" data-name="Group 5" transform="translate(392 530) rotate(180)">
+      <g transform="matrix(-1, 0, 0, -1, 422, 550)" filter="url(#Ellipse_1)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="152" cy="152" r="152" transform="translate(334 324) rotate(180)" fill="#1b2f46"/>
+      </g>
+    </g>
+    <line id="Line_2" data-name="Line 2" y2="34.59" transform="translate(151.921 15.589)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_3" data-name="Line 3" y2="34.59" transform="translate(151.921 253.668)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_4" data-name="Line 4" x1="34.59" transform="translate(253.668 151.92)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x1="34.59" transform="translate(15.589 151.92)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" x1="17.292" y1="29.958" transform="translate(202.797 240.034)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_7" data-name="Line 7" x1="17.292" y1="29.952" transform="translate(83.758 33.854)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_8" data-name="Line 8" x1="29.958" y1="17.292" transform="translate(240.034 202.797)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_9" data-name="Line 9" x1="29.952" y1="17.292" transform="translate(33.855 83.758)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_10" data-name="Line 10" y1="29.958" x2="17.292" transform="translate(83.758 240.034)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_11" data-name="Line 11" y1="29.952" x2="17.292" transform="translate(202.797 33.854)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_12" data-name="Line 12" y1="17.292" x2="29.952" transform="translate(33.855 202.797)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_13" data-name="Line 13" y1="17.292" x2="29.958" transform="translate(240.034 83.758)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_14" data-name="Line 14" x1="34.59" transform="translate(253.668 151.92)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_15" data-name="Line 15" x1="34.59" transform="translate(15.589 151.92)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_16" data-name="Line 16" x1="15.897" y2="1.674" transform="translate(271.611 137.673)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_17" data-name="Line 17" x1="15.903" y2="1.674" transform="translate(16.333 164.5)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_18" data-name="Line 18" x1="15.636" y2="3.323" transform="translate(269.639 123.58)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_19" data-name="Line 19" x1="15.636" y2="3.323" transform="translate(18.572 176.943)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_20" data-name="Line 20" x1="15.209" y2="4.941" transform="translate(266.378 109.792)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_21" data-name="Line 21" x1="15.209" y2="4.941" transform="translate(22.261 189.114)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_22" data-name="Line 22" x1="14.607" y2="6.498" transform="translate(261.865 96.474)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_23" data-name="Line 23" x1="14.607" y2="6.504" transform="translate(27.376 200.869)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_24" data-name="Line 24" x2="15.903" y2="1.674" transform="translate(16.333 137.673)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_25" data-name="Line 25" x2="15.897" y2="1.674" transform="translate(271.611 164.5)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_26" data-name="Line 26" x2="15.636" y2="3.323" transform="translate(18.572 123.58)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_27" data-name="Line 27" x2="15.636" y2="3.323" transform="translate(269.639 176.943)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_28" data-name="Line 28" x2="15.209" y2="4.941" transform="translate(22.261 109.792)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_29" data-name="Line 29" x2="15.209" y2="4.941" transform="translate(266.378 189.114)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_30" data-name="Line 30" x2="14.607" y2="6.498" transform="translate(27.376 96.474)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_31" data-name="Line 31" x2="14.607" y2="6.504" transform="translate(261.865 200.869)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_40" data-name="Line 40" x1="12.933" y2="9.399" transform="translate(249.285 71.786)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_41" data-name="Line 41" x1="12.933" y2="9.393" transform="translate(41.629 222.662)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_42" data-name="Line 42" x1="11.885" y2="10.695" transform="translate(241.355 60.7)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_43" data-name="Line 43" x1="11.885" y2="10.695" transform="translate(50.607 232.452)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_44" data-name="Line 44" x1="10.695" y2="11.885" transform="translate(232.452 50.607)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_45" data-name="Line 45" x1="10.695" y2="11.885" transform="translate(60.7 241.355)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_46" data-name="Line 46" x1="9.399" y2="12.933" transform="translate(222.662 41.629)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_47" data-name="Line 47" x1="9.399" y2="12.933" transform="translate(71.786 249.285)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_48" data-name="Line 48" x2="12.933" y2="9.399" transform="translate(41.629 71.786)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_49" data-name="Line 49" x2="12.933" y2="9.393" transform="translate(249.285 222.662)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_50" data-name="Line 50" x2="11.885" y2="10.695" transform="translate(50.607 60.7)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_51" data-name="Line 51" x2="11.885" y2="10.695" transform="translate(241.355 232.452)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_52" data-name="Line 52" x2="10.695" y2="11.885" transform="translate(60.7 50.607)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_53" data-name="Line 53" x2="10.695" y2="11.885" transform="translate(232.452 241.355)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_54" data-name="Line 54" x2="9.399" y2="12.933" transform="translate(71.786 41.629)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_55" data-name="Line 55" x2="9.399" y2="12.933" transform="translate(222.662 249.285)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_56" data-name="Line 56" x2="6.504" y2="14.607" transform="translate(96.468 27.375)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_57" data-name="Line 57" x2="6.504" y2="14.607" transform="translate(200.869 261.864)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_58" data-name="Line 58" x2="4.941" y2="15.209" transform="translate(109.792 22.26)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_59" data-name="Line 59" x2="4.941" y2="15.209" transform="translate(189.114 266.378)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_60" data-name="Line 60" x2="3.323" y2="15.636" transform="translate(123.58 18.572)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_61" data-name="Line 61" x2="3.323" y2="15.636" transform="translate(176.944 269.639)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_62" data-name="Line 62" x2="1.668" y2="15.903" transform="translate(137.673 16.333)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_63" data-name="Line 63" x2="1.674" y2="15.897" transform="translate(164.5 271.611)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_64" data-name="Line 64" x1="6.504" y2="14.607" transform="translate(200.869 27.375)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_65" data-name="Line 65" x1="6.504" y2="14.607" transform="translate(96.468 261.864)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_66" data-name="Line 66" x1="4.941" y2="15.209" transform="translate(189.114 22.26)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_67" data-name="Line 67" x1="4.941" y2="15.209" transform="translate(109.792 266.378)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_68" data-name="Line 68" x1="3.323" y2="15.636" transform="translate(176.944 18.572)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_69" data-name="Line 69" x1="3.323" y2="15.636" transform="translate(123.58 269.639)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_70" data-name="Line 70" x1="1.674" y2="15.903" transform="translate(164.5 16.333)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_71" data-name="Line 71" x1="1.668" y2="15.897" transform="translate(137.673 271.611)" fill="none" stroke="#00a6e2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

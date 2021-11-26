@@ -1,0 +1,7 @@
+<svg id="clock-btn-pause-active_play_" data-name="clock-btn-pause-active (play)" xmlns="http://www.w3.org/2000/svg" width="145" height="145" viewBox="0 0 145 145">
+  <g id="Rectangle_3" data-name="Rectangle 3" fill="none" stroke="#1b2f46" stroke-width="2">
+    <rect width="145" height="145" rx="72.5" stroke="none"/>
+    <rect x="1" y="1" width="143" height="143" rx="71.5" fill="none"/>
+  </g>
+  <path id="Polygon_4" data-name="Polygon 4" d="M17.254,3.124a2,2,0,0,1,3.492,0l15.591,27.9A2,2,0,0,1,34.591,34H3.409a2,2,0,0,1-1.746-2.976Z" transform="translate(93 51) rotate(90)" fill="#fcb647"/>
+</svg>

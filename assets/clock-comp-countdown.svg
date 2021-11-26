@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="478" height="478" viewBox="0 0 478 478">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="478" height="478" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="clock-comp-countdown" transform="translate(30 20)">
+    <g transform="matrix(1, 0, 0, 1, -30, -20)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="209" cy="209" r="209" transform="translate(30 20)" fill="#151b2e"/>
+    </g>
+    <text id="_01:59" data-name="01:59" transform="translate(28 151)" fill="#fcb647" font-size="120" font-family="BuenosAires-Thin, Buenos Aires" font-weight="200" letter-spacing="-0.01em"><tspan x="43.24" y="115">01:59</tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(8.756 8.756)">
+      <path id="Path_8" data-name="Path 8" d="M199.819,5C307.413,5,394.638,92.224,394.638,199.819S307.413,394.638,199.819,394.638,5,307.413,5,199.819C5,105.675,71.783,27.125,160.554,8.961" fill="none" stroke="#fcb647" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

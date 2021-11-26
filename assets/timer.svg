@@ -1,0 +1,7 @@
+<svg id="timer" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Component_30_3" data-name="Component 30 – 3" transform="translate(-0.458 -0.458)">
+    <rect id="Rectangle_20" data-name="Rectangle 20" width="50" height="50" rx="4" transform="translate(0.458 0.458)" fill="none"/>
+    <path id="Path_11" data-name="Path 11" d="M23.543,5A16.522,16.522,0,1,1,10.2,31.271" transform="translate(0.583 4.299)" fill="none" stroke="#ec6545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+  <path id="Path_19" data-name="Path 19" d="M4,6.248V-5.918H8.257V-8.455H-3.328v2.537H.921V6.248Z" transform="translate(21.539 26.876)" fill="#ec6545"/>
+</svg>

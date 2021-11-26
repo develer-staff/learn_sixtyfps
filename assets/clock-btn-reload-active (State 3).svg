@@ -1,0 +1,12 @@
+<svg id="clock-btn-reload-active_State_3_" data-name="clock-btn-reload-active (State 3)" xmlns="http://www.w3.org/2000/svg" width="145" height="145" viewBox="0 0 145 145">
+  <g id="Group_13" data-name="Group 13">
+    <g id="Group_12" data-name="Group 12" transform="matrix(0.883, -0.469, 0.469, 0.883, 31.823, 55.802)">
+      <path id="Path_14" data-name="Path 14" d="M28.076,12.83A25.083,25.083,0,1,1,11,19.544" transform="translate(0 -2.472)" fill="none" stroke="#fcb647" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+      <path id="Path_15" data-name="Path 15" d="M38.741,17.709,31.39,10.358,38.741,3" transform="translate(-7.139)" fill="none" stroke="#fcb647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="6"/>
+    </g>
+  </g>
+  <g id="Rectangle_25" data-name="Rectangle 25" fill="none" stroke="#1b2f46" stroke-width="2">
+    <rect width="145" height="145" rx="72.5" stroke="none"/>
+    <rect x="1" y="1" width="143" height="143" rx="71.5" fill="none"/>
+  </g>
+</svg>

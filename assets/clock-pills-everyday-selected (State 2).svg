@@ -1,0 +1,8 @@
+<svg id="clock-pills-everyday-selected_State_2_" data-name="clock-pills-everyday-selected (State 2)" xmlns="http://www.w3.org/2000/svg" width="192" height="50" viewBox="0 0 192 50">
+  <g id="Rectangle_13" data-name="Rectangle 13" fill="rgba(159,170,176,0.2)" stroke="#e2e5e7" stroke-width="1">
+    <rect width="192" height="50" rx="25" stroke="none"/>
+    <rect x="0.5" y="0.5" width="191" height="49" rx="24.5" fill="none"/>
+  </g>
+  <text id="Everyday" transform="translate(116 32)" fill="#e2e5e7" font-size="20" font-family="BuenosAires-Regular, Buenos Aires"><tspan x="-45.78" y="0">Everyday</tspan></text>
+  <path id="Path_6" data-name="Path 6" d="M47.709,44.466l-6.01,6.01L54.812,63.589" transform="translate(-16.763 73.192) rotate(-90)" fill="none" stroke="#e2e5e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

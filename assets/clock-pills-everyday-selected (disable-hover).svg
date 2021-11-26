@@ -1,0 +1,11 @@
+<svg id="clock-pills-everyday-selected_disable-hover_" data-name="clock-pills-everyday-selected (disable-hover)" xmlns="http://www.w3.org/2000/svg" width="192" height="50" viewBox="0 0 192 50">
+  <g id="Rectangle_13" data-name="Rectangle 13" fill="rgba(159,170,176,0.2)" stroke="#e2e5e7" stroke-width="1">
+    <rect width="192" height="50" rx="25" stroke="none"/>
+    <rect x="0.5" y="0.5" width="191" height="49" rx="24.5" fill="none"/>
+  </g>
+  <text id="Everyday" transform="translate(116 32)" fill="#e2e5e7" font-size="20" font-family="BuenosAires-Regular, Buenos Aires"><tspan x="-45.78" y="0">Everyday</tspan></text>
+  <g id="ic-tick-selected" transform="translate(20 8)">
+    <rect id="Rectangle_40" data-name="Rectangle 40" width="34" height="34" fill="none"/>
+    <path id="Path_6" data-name="Path 6" d="M47.709,44.466l-6.01,6.01L54.812,63.589" transform="translate(-36.966 65.312) rotate(-90)" fill="none" stroke="#e2e5e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

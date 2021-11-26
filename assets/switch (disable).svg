@@ -1,0 +1,11 @@
+<svg id="switch_disable_" data-name="switch (disable)" xmlns="http://www.w3.org/2000/svg" width="112" height="60" viewBox="0 0 112 60">
+  <rect id="Rectangle_32" data-name="Rectangle 32" width="112" height="60" rx="8" fill="rgba(159,170,176,0.2)"/>
+  <g id="switch-off-disable" transform="translate(4 4)">
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="52" height="52" rx="6" fill="#9faab0"/>
+    <line id="Line_86" data-name="Line 86" x2="20" transform="translate(26.5 16) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+  <g id="switch-on-selected" transform="translate(56 4)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="52" height="52" rx="6" fill="none"/>
+    <path id="Path_16" data-name="Path 16" d="M20.449,0a5.946,5.946,0,0,0-4.881,2.639,7.814,7.814,0,0,0-5.541,2.375L4.09,10.95a1.275,1.275,0,0,1-1.847,0,1.275,1.275,0,0,0-1.847,0A1.275,1.275,0,0,0,.4,12.8l5.145,5.145a3,3,0,0,0-1.583.792,2.551,2.551,0,0,0,0,3.694,2.551,2.551,0,0,0,3.694,0,3.009,3.009,0,0,0,.792-1.583l5.145,5.145a1.306,1.306,0,0,0,1.847-1.847,1.442,1.442,0,0,1-.132-1.979L21.24,16.1a7.613,7.613,0,0,0,2.243-5.013,5.987,5.987,0,0,0,2.9-5.145A5.912,5.912,0,0,0,20.449,0Zm2.639,7.916A10.415,10.415,0,0,0,21.24,4.881,7.029,7.029,0,0,0,18.6,3.166a4.294,4.294,0,0,1,1.847-.528,3.3,3.3,0,0,1,2.639,5.277Z" transform="translate(13.615 12.615)" fill="#98d0ca"/>
+  </g>
+</svg>

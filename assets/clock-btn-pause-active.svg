@@ -1,0 +1,8 @@
+<svg id="clock-btn-pause-active" xmlns="http://www.w3.org/2000/svg" width="145" height="145" viewBox="0 0 145 145">
+  <g id="Rectangle_3" data-name="Rectangle 3" fill="none" stroke="#1b2f46" stroke-width="2">
+    <rect width="145" height="145" rx="72.5" stroke="none"/>
+    <rect x="1" y="1" width="143" height="143" rx="71.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_14" data-name="Rectangle 14" width="12" height="38" rx="2" transform="translate(56 52)" fill="#fcb647"/>
+  <rect id="Rectangle_15" data-name="Rectangle 15" width="12" height="38" rx="2" transform="translate(77 52)" fill="#fcb647"/>
+</svg>
