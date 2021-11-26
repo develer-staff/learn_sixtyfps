@@ -1,4 +1,7 @@
 HelloWorld := Window {
+    width: 800px;
+    height: 480px;
+
     Text {
         text: "hello world";
         color: green;
