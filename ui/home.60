@@ -1,6 +1,11 @@
 import "../fonts/BuenosAires-SemiBold.otf";
-import {YellowButton, AlarmSwitch} from "components.60";
+import "../fonts/BuenosAires-Regular.otf";
 
+import {YellowButton, AlarmSwitch} from "components.60";
+import {Palette, Utils} from "common.60";
+
+// Re-export for native code
+export {Utils}
 
 ClockPage := Rectangle {
     Text {
@@ -19,16 +24,37 @@ ClockPage := Rectangle {
         y: 100px;
     }
 
-    Text {
-         font-size: 24px;
-         color: #FCB647;
-         text: "Tuesday 10 December";
-         x: (parent.width / 2) - (self.width / 2);
-         y: 153px;
-    }
+    
 
     // TODO: we can't draw the analog clock because we miss the rotation
     // property for graphical elements.
+    if true: Rectangle {
+        x: (parent.width / 2) - (self.width / 2);
+        y: 160px;//Utils.verticalCenter(parent.height, self.height);
+
+        width: 444px;
+        height: 390px;
+        background: #1B2F46;
+        border-radius: 40px;
+        drop-shadow-offset-x: 10px;
+        drop-shadow-offset-y: 20px;
+
+        Text {
+            font-size: 24px;
+            color: Palette.foreground-color;
+            text: Utils.date-as-string;
+            x: (parent.width / 2) - (self.width / 2);
+            y: 40px;
+       }
+
+       Text {
+           x: (parent.width / 2) - (self.width / 2);
+           y: 137px;
+           font-size: 120px;
+           color: Palette.foreground-color;
+           text: Utils.current-time;
+       }
+     }
 
     HorizontalLayout { 
         padding-top: 690px;
