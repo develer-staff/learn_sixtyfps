@@ -1,3 +1,5 @@
+import {Palette} from "common.60";
+
 export AlarmSwitch := Rectangle {
     property<bool> checked;
     callback clicked;
@@ -33,14 +35,14 @@ export YellowButton := Rectangle {
     property<string> text <=> innerText.text;
     width: 190px;
     height: 64px;
-    background: ta.has-hover ? #FCB647 : transparent;
-    border-color:#FCB647;
+    background: ta.has-hover ? Palette.foreground-color : transparent;
+    border-color: Palette.foreground-color;
     border-width: 1px;
     border-radius: 32px;
 
     innerText := Text {
         text: "TIMER";
-        color:ta.has-hover? #151B2E : #FCB647;
+        color:ta.has-hover? Palette.global-background : Palette.foreground-color;
         x: (parent.width / 2) - (self.width / 2);
         y: (parent.height / 2) - (self.height / 2);
         font-size: 30px;

@@ -10,7 +10,7 @@ export {Utils}
 ClockPage := Rectangle {
     Text {
         text: "DeveClock";
-        color: #9FAAB0;
+        color: Palette.normal-color;
         font-size: 30px;
         x: (parent.width / 2) - (self.width / 2);
         y: 40px;
@@ -19,7 +19,7 @@ ClockPage := Rectangle {
     Rectangle { 
         width: 418px;
         height: 1px;
-        background: #9FAAB0;
+        background: Palette.normal-color;
         x: (parent.width / 2) - (self.width / 2);
         y: 100px;
     }
@@ -75,7 +75,7 @@ ClockPage := Rectangle {
 HelloWorld := Window {
     width: 480px;
     height: 800px;
-    background: #151B2E;
+    background: Palette.global-background;
     title: "DeveClock";
     default-font-family: "Buenos Aires";
 
