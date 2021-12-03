@@ -85,5 +85,7 @@ MainWindow := Window {
         timerClicked => { clockPage.visible = false; timerPage.visible = true; }
     }
     
-    timerPage := TimerPage {}
+    timerPage := TimerPage {
+        backClicked => { clockPage.visible = true; timerPage.visible = false; }
+    }
 }

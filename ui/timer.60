@@ -5,6 +5,19 @@ import {Palette, Utils} from "common.60";
 
 export TimerPage := Rectangle {
     visible: false;
+    callback backClicked;
+
+    Image {
+        source: @image-url("../assets/clock-btn-back-active.svg");
+        width: 80px;
+        height: width;
+        x: 10px;
+        y: 20px;
+
+        TouchArea { 
+            clicked => { root.backClicked(); }
+        }
+    }
 
     Text {
         text: "Timer";
