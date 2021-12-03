@@ -35,3 +35,104 @@ export TimerPage := Rectangle {
         y: 100px;
     }
 }
+
+
+export TimerExpiredPage := Rectangle {
+    visible: false;
+    callback backClicked();
+
+    Image {
+        source: @image-url("../assets/clock-btn-back-active.svg");
+        width: 80px;
+        height: width;
+        x: 10px;
+        y: 20px;
+
+        TouchArea { 
+            clicked => { root.backClicked(); }
+        }
+    }
+
+    Text {
+        text: "Timer";
+        color: Palette.normal-color;
+        font-size: 30px;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 40px;
+    }
+
+    Rectangle { 
+        width: 418px;
+        height: 1px;
+        background: Palette.normal-color;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 100px;
+    }
+
+    rect := Rectangle { 
+        background: green;
+        width: 100px;
+        height: 100px;
+        // width: 390px;
+        // height: width;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 160px;
+        TouchArea { 
+            clicked=> {
+                mypath.degrees = 0
+            }
+
+         }
+       
+     }
+     mypath := Path {
+        // x: (parent.width / 2) - (self.width / 2);
+        // y: 160px;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 160px;
+        stroke: Palette.foreground-color;
+        stroke-width: 4px;
+        width: rect.width;
+        height: width;
+        // Avoid auto-fitting of the shape on the size of the Path
+        viewbox-width: width / 1px;
+        viewbox-height: height / 1px;
+        // clip: true;
+        // width: 390px;
+        // height: width;
+        property<int> degrees: 360;
+        animate degrees { duration: 1s; }
+
+
+       
+        MoveTo {
+            x: (parent.width / 2) / 1px;
+            y: 0;
+            // y: parent.height / 1px;
+
+        }
+        
+        property<int> maxAngle: min(degrees, 180);
+        property<int> leftAngle: degrees;
+        
+        ArcTo {
+            radius-x: (parent.width / 2) / 1px;
+            radius-y: (parent.height / 2) / 1px;
+            large-arc: false;
+            sweep: true;
+            x: sin(parent.maxAngle * 1deg) * (parent.width /2 / 1px) + (parent.width / 2 / 1px);
+            y: -cos(parent.maxAngle * 1deg) * parent.height /2 /1px + (parent.height / 2 / 1px);
+        }
+        ArcTo {
+            radius-x: (parent.width / 2) / 1px;
+            radius-y: (parent.height / 2) / 1px;
+            large-arc: false;
+            sweep: true;
+            x: sin(parent.leftAngle * 1deg) * (parent.width /2 / 1px) + (parent.width / 2 / 1px);
+            y: -(cos(parent.leftAngle * 1deg) * parent.height /2 /1px - (parent.height / 2 / 1px));
+        }
+
+        
+    }
+
+}
