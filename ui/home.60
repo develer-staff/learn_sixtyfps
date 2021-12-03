@@ -1,9 +1,83 @@
-HelloWorld := Window {
-    width: 800px;
-    height: 480px;
+import "../fonts/BuenosAires-SemiBold.otf";
+import "../fonts/BuenosAires-Regular.otf";
 
+import {YellowButton, AlarmSwitch} from "components.60";
+import {Palette, Utils} from "common.60";
+
+// Re-export for native code
+export {Utils}
+
+ClockPage := Rectangle {
     Text {
-        text: "hello world";
-        color: green;
+        text: "DeveClock";
+        color: Palette.normal-color;
+        font-size: 30px;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 40px;
     }
+
+    Rectangle { 
+        width: 418px;
+        height: 1px;
+        background: Palette.normal-color;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 100px;
+    }
+
+    
+
+    // TODO: we can't draw the analog clock because we miss the rotation
+    // property for graphical elements.
+    if true: Rectangle {
+        x: (parent.width / 2) - (self.width / 2);
+        y: 160px;//Utils.verticalCenter(parent.height, self.height);
+
+        width: 444px;
+        height: 390px;
+        background: #1B2F46;
+        border-radius: 40px;
+        drop-shadow-offset-x: 10px;
+        drop-shadow-offset-y: 20px;
+
+        Text {
+            font-size: 24px;
+            color: Palette.foreground-color;
+            text: Utils.date-as-string;
+            x: (parent.width / 2) - (self.width / 2);
+            y: 40px;
+       }
+
+       Text {
+           x: (parent.width / 2) - (self.width / 2);
+           y: 137px;
+           font-size: 120px;
+           color: Palette.foreground-color;
+           text: Utils.current-time;
+       }
+     }
+
+    HorizontalLayout { 
+        padding-top: 690px;
+        padding-left: 18px;
+        spacing: 64px;
+
+        YellowButton {
+            text: "TIMER";
+        }
+        YellowButton {
+            text: "ALARM";
+        }
+    }
+}
+
+
+
+HelloWorld := Window {
+    width: 480px;
+    height: 800px;
+    background: Palette.global-background;
+    title: "DeveClock";
+    default-font-family: "Buenos Aires";
+
+    clockPage := ClockPage {}
 }

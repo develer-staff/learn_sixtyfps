@@ -1,0 +1,57 @@
+import {Palette} from "common.60";
+
+export AlarmSwitch := Rectangle {
+    property<bool> checked;
+    callback clicked;
+
+    width: 112px;
+    height: 60px;
+    background: root.checked ? #00B49D4D : #9FAAB033;
+    border-radius: 8px;
+
+    HorizontalLayout {
+        x: 4px;
+        Image {
+            source: root.checked ? @image-url("../assets/clock-switch-off-disable.svg") : @image-url("../assets/clock-switch-off-selected.svg");
+            width: 52px;
+            height: 52px;
+            y: (parent.height / 2) - (self.height / 2);
+        }
+    
+        Image {
+            source: root.checked ? @image-url("../assets/clock-switch-on-selected.svg") : @image-url("../assets/clock-switch-on-disable.svg");
+            width: 52px;
+            height: 52px;
+            y: (parent.height / 2) - (self.height / 2);
+        }
+    }
+
+    TouchArea { 
+        clicked => {root.clicked()}
+     }
+}
+
+export YellowButton := Rectangle {
+    property<string> text <=> innerText.text;
+    width: 190px;
+    height: 64px;
+    background: ta.has-hover ? Palette.foreground-color : transparent;
+    border-color: Palette.foreground-color;
+    border-width: 1px;
+    border-radius: 32px;
+
+    innerText := Text {
+        text: "TIMER";
+        color:ta.has-hover? Palette.global-background : Palette.foreground-color;
+        x: (parent.width / 2) - (self.width / 2);
+        y: (parent.height / 2) - (self.height / 2);
+        font-size: 30px;
+        animate color { duration: 150ms; }
+
+    }
+
+    animate background { duration: 150ms; }
+
+    ta := TouchArea {
+    }
+}

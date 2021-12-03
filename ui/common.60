@@ -1,0 +1,10 @@
+export global Palette := {
+    property<color> foreground-color:#FCB647;
+    property<color> global-background: #151B2E;
+    property<color> normal-color: #9FAAB0;
+}
+
+export global Utils := {
+    property<string> current-time: "9:00";
+    property<string> date-as-string: "Tuesday 10 December";
+}
