@@ -32,6 +32,7 @@ export AlarmSwitch := Rectangle {
 }
 
 export YellowButton := Rectangle {
+    callback clicked;
     property<string> text <=> innerText.text;
     width: 190px;
     height: 64px;
@@ -53,5 +54,6 @@ export YellowButton := Rectangle {
     animate background { duration: 150ms; }
 
     ta := TouchArea {
+        clicked => { root.clicked(); }
     }
 }

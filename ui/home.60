@@ -1,6 +1,7 @@
 import "../fonts/BuenosAires-SemiBold.otf";
 import "../fonts/BuenosAires-Regular.otf";
 
+import {TimerPage} from "timer.60";
 import {YellowButton, AlarmSwitch} from "components.60";
 import {Palette, Utils} from "common.60";
 
@@ -8,6 +9,8 @@ import {Palette, Utils} from "common.60";
 export {Utils}
 
 ClockPage := Rectangle {
+    callback timerClicked;
+
     Text {
         text: "DeveClock";
         color: Palette.normal-color;
@@ -63,14 +66,13 @@ ClockPage := Rectangle {
 
         YellowButton {
             text: "TIMER";
+            clicked => { root.timerClicked(); }
         }
         YellowButton {
             text: "ALARM";
         }
     }
 }
-
-
 
 MainWindow := Window {
     width: 480px;
@@ -79,5 +81,9 @@ MainWindow := Window {
     title: "DeveClock";
     default-font-family: "Buenos Aires";
 
-    clockPage := ClockPage {}
+    clockPage := ClockPage {
+        timerClicked => { clockPage.visible = false; timerPage.visible = true; }
+    }
+    
+    timerPage := TimerPage {}
 }

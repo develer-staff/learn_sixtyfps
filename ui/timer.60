@@ -1,0 +1,24 @@
+import "../fonts/BuenosAires-SemiBold.otf";
+import "../fonts/BuenosAires-Regular.otf";
+
+import {Palette, Utils} from "common.60";
+
+export TimerPage := Rectangle {
+    visible: false;
+
+    Text {
+        text: "Timer";
+        color: Palette.normal-color;
+        font-size: 30px;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 40px;
+    }
+
+    Rectangle { 
+        width: 418px;
+        height: 1px;
+        background: Palette.normal-color;
+        x: (parent.width / 2) - (self.width / 2);
+        y: 100px;
+    }
+}
