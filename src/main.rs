@@ -2,15 +2,15 @@ use std::time::Duration;
 sixtyfps::include_modules!();
 
 fn format_date_time(format: &str) -> sixtyfps::SharedString {
-    return chrono::Local::now().format(format).to_string().into();
+    chrono::Local::now().format(format).to_string().into()
 }
 
 fn current_time() -> sixtyfps::SharedString {
-    return format_date_time("%H:%M");
+    format_date_time("%H:%M")
 }
 
 fn date_as_string() -> sixtyfps::SharedString {
-    return format_date_time("%A %d %B");
+    format_date_time("%A %d %B")
 }
 
 fn main() {
