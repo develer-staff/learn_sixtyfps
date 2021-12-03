@@ -19,7 +19,7 @@ fn main() {
     let date_progress: sixtyfps::Timer = Default::default();
     date_progress.start(
         sixtyfps::TimerMode::Repeated,
-        Duration::from_millis(100),
+        Duration::from_secs(1),
         move || {
             if let Some(main_window) = main_window_weak.upgrade() {
                 main_window
