@@ -47,7 +47,7 @@ export TimerPage := Rectangle {
         drop-shadow-offset-y: 20px;
 
         Text {
-            x: 20px;
+            x: 21px;
             y: 50px;
             width: parent.width;
             height: 200px;
@@ -70,13 +70,61 @@ export TimerPage := Rectangle {
 
 
         Text {
-            x: 20px;
+            x: 21px;
             y: 50px;
             width: parent.width;
             height: 200px;
             font-size: 120px;
             color: Palette.foreground-color;
             text: "00";
+        }
+    }
+
+    Image {
+        source: @image-url("../assets/clock-btn-arrow.svg");
+        width: 150px;
+        height: 100px;
+        x: 50px;
+        y: 476px;
+
+        TouchArea { 
+            // clicked => { root.backClicked(); }
+        }
+    }
+
+    Image {
+        source: @image-url("../assets/clock-btn-arrow-down.png");
+        width: 150px;
+        height: 100px;
+        x: 48px;
+        y: 530px;
+
+        TouchArea { 
+            // clicked => { root.backClicked(); }
+        }
+    }
+
+    Image {
+        source: @image-url("../assets/clock-btn-arrow.svg");
+        width: 150px;
+        height: 100px;
+        x: 280px;
+        y: 476px;
+
+        TouchArea { 
+            // clicked => { root.backClicked(); }
+        }
+    }
+    
+    Image {
+        source: @image-url("../assets/clock-btn-arrow-down.png");
+        width: 148px;
+        height: 100px;
+        x: 280px;
+        y: 530px;
+
+        TouchArea { 
+            // clicked => { root.backClicked(); }
         }
     }
 }
