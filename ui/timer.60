@@ -34,6 +34,51 @@ export TimerPage := Rectangle {
         x: (parent.width / 2) - (self.width / 2);
         y: 100px;
     }
+
+    Rectangle {
+        x: 28px;
+        y: 160px;
+
+        width: 190px;
+        height: 280px;
+        background: #1B2F46;
+        border-radius: 30px;
+        drop-shadow-offset-x: 10px;
+        drop-shadow-offset-y: 20px;
+
+        Text {
+            x: 20px;
+            y: 50px;
+            width: parent.width;
+            height: 200px;
+            font-size: 120px;
+            color: Palette.foreground-color;
+            text: "00";
+        }
+    }
+
+    Rectangle {
+        x: 262px;
+        y: 160px;
+
+        width: 190px;
+        height: 280px;
+        background: #1B2F46;
+        border-radius: 30px;
+        drop-shadow-offset-x: 10px;
+        drop-shadow-offset-y: 20px;
+
+
+        Text {
+            x: 20px;
+            y: 50px;
+            width: parent.width;
+            height: 200px;
+            font-size: 120px;
+            color: Palette.foreground-color;
+            text: "00";
+        }
+    }
 }
 
 
