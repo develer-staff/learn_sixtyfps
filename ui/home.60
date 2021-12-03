@@ -72,7 +72,7 @@ ClockPage := Rectangle {
 
 
 
-HelloWorld := Window {
+MainWindow := Window {
     width: 480px;
     height: 800px;
     background: Palette.global-background;

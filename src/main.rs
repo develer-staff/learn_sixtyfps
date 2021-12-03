@@ -14,7 +14,7 @@ fn date_as_string() -> sixtyfps::SharedString {
 }
 
 fn main() {
-    let main_window = HelloWorld::new();
+    let main_window = MainWindow::new();
     let main_window_weak = main_window.as_weak();
     let date_progress: sixtyfps::Timer = Default::default();
     date_progress.start(
